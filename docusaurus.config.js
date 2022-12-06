@@ -10,8 +10,8 @@ const katex = require('rehype-katex');
 const config = {
   //************************campos obligatorios *******************
   title: 'My trip', //titulo de la pagina
-  url: 'https://your-docusaurus-test-site.com', //url cuando esta en produccion
-  baseUrl: '/', //base de la url para cuando pase a produccion
+  url: 'https://github.com', //url cuando esta en produccion
+  baseUrl: '/mytrip/', //base de la url para cuando pase a produccion
 
   //************************campos opcionales *********************
   
@@ -186,6 +186,33 @@ const config = {
                 sidebarId:'RocketBot',
                 label:'RocketBot',
               },
+              {
+                type: 'docSidebar',
+                sidebarId:'AutomatizacionPython',
+                label:'Python',
+              },
+            ] 
+          },
+          {
+            type:'dropdown',
+            label: 'WEB',
+            position: 'left',
+            items:[
+              {
+                type: 'docSidebar',
+                sidebarId:'HTML',
+                label:'HTML',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId:'CSS',
+                label:'CSS',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId:'JS',
+                label:'Javascript',
+              },
             ] 
           },
         ],
@@ -200,6 +227,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         defaultLanguage: 'javascript',
+        additionalLanguages: ['java','csharp','rust','visual-basic'],
       },
       tableOfContents:{
         minHeadingLevel:2,
