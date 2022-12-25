@@ -227,7 +227,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         defaultLanguage: 'javascript',
-        additionalLanguages: ['java','csharp','rust','visual-basic'],
+        additionalLanguages: ['java','csharp','rust','visual-basic','cpp','go'],
       },
       tableOfContents:{
         minHeadingLevel:2,
