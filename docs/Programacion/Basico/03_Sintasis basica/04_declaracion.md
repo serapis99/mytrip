@@ -97,8 +97,10 @@ unsigned short estatura{15};
 
 <TabItem value="py" label="Python">
 
-```py 
+python tiene la capacidad de darle el tipo a la variable dependiendo el valor que guarda en su interior si es de tipo numerico lo guarda como **int** si es de tipo flotante lo guarda como **float**, si es de tipo string lo guarda como **str** y si contiene true o false sera tratada como **bool**
 
+```py 
+variable=15
 ```
 
 </TabItem>
@@ -159,8 +161,10 @@ const double iva=0.20;
 
 <TabItem value="py" label="Python">
 
-```py 
+En python no existen las constantes lo unico que se hace como nomenclatura es nombrarla toda en mayuscula.
 
+```py 
+CONSTANTE=3.1416
 ```
 
 </TabItem>
@@ -235,15 +239,27 @@ varias lineas
 <TabItem value="py" label="Python">
 
 ```py 
+# comentarios de una linea
 
+
+"""
+Comentarios de varias lineas 
+tambien funcionan como documentacion 
+del codigo
+"""
 ```
 
 </TabItem>
 
 <TabItem value="go" label="Go">
 
-```py 
+```go
+//comentario de una linea
 
+/* 
+comentario de 
+varias lineas
+*/
 ```
 
 </TabItem>

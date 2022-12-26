@@ -29,8 +29,7 @@ dotnet run
 + Tipado fuerte
 
 ## Caracteristica VB.net
+
 + No es case sensitive
 + Orientado a objetos
 + Tipado fuerte
-+ 
-

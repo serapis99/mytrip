@@ -94,7 +94,22 @@ estos tipos pueden modificar su rango a solo positivos con la palabra clave `uns
 
 </TabItem>
 
+<TabItem value="py" label="Python">
 
+|Tipo|descripcion|ejemplo|
+|---|---|---|
+|int| numeros enteros|`c=10`|
+|complex| numeros imaginarios|`c=10j`|
+
+</TabItem>
+
+<TabItem value="go" label="Go">
+
+```go 
+
+```
+
+</TabItem>
 
 
 </Tabs>
@@ -144,6 +159,22 @@ Este tipo de variables nos permitira almacenar numeros con decimales
 
 </TabItem>
 
+<TabItem value="py" label="Python">
+
+|tipo|ejemplo|
+|---|---|
+|float|`c=10.65`|
+
+</TabItem>
+
+<TabItem value="go" label="Go">
+
+```go
+
+```
+
+</TabItem>
+
 </Tabs>
 
 ## Chart
@@ -189,6 +220,22 @@ los datos de tipo chart nos permite almacenar cualquier caracter que se encuentr
 
 </TabItem>
 
+<TabItem value="py" label="Python">
+
+|tipo|ejemplo|
+|---|---|
+|str|a="texto"|
+
+</TabItem>
+
+<TabItem value="go" label="Go">
+
+```go
+
+```
+
+</TabItem>
+
 </Tabs>
 
 ## Boolean
@@ -225,6 +272,22 @@ Este tipo nos permite almacenar verdadero o falso.
 |tipo |valor min| valor maximo|
 |---|---|---|
 |Bool|false|true|
+
+</TabItem>
+
+<TabItem value="py" label="Python">
+
+|tipo |valor min| valor maximo|
+|---|---|---|
+|Bool|false|true|
+
+</TabItem>
+
+<TabItem value="go" label="Go">
+
+```py 
+
+```
 
 </TabItem>
 

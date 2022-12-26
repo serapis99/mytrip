@@ -54,9 +54,10 @@ trata de todos los conocimientos que quierero aprender y todos los conocimientos
 
 <TabItem value="go" label="Go">
 
-```py 
+```go 
 
 ```
 
 </TabItem>
+
 </Tabs>
